@@ -11,7 +11,10 @@ import SwiftUI
 struct FlowTrackApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                WelcomView()
+            }
+            
         }
     }
 }
